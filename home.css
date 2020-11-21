@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+.active{
+    color: blue;
+  }
+
+/* /////////////////////////////navbar/////////////////////////////////////// */
+        .navbarheight{
+            height: 50px;
+           padding: 0px 0px;
+        }
+        .bold{
+            color: rgb(255 255 255);
+            font-size: x-large;
+            font-weight: bolder;
+        }
+        .bg-mask{
+            background-color: rgba(0, 0, 0, 0.75);
+            height: inherit;
+        }
+        .opacity{
+           opacity: 0.7;
+            }
+            .navText{
+               
+                color: ivory;
+            }
+            .logoimage{
+            padding: 5%;
+           
+            }
+       .row{
+      
+           margin-left: 0px!important;
+           margin-right: 0px!important;
+       }
+        .img{
+            background-image: url("background.jpg");
+            background-size: 100% 100%;
+            background-attachment: fixed;
+          position: relative;
+      
+       
+        }
+        .imagetext{
+           padding: 5%;
+          
+           color: ivory;
+           
+        }
+        
+      
+    .svg1{
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9InJnYmEoNzgsMTQ4LDYwLDAuODQpIj48cGF0aCBkPSJNNjQwIDEzOUwwIDB2MTQwaDEyODBWMEw2NDAgMTM5eiIgZmlsbC1vcGFjaXR5PSIuNSIvPjxwYXRoIGQ9Ik02NDAgMTM5TDAgNDJ2OThoMTI4MFY0MmwtNjQwIDk3eiIvPjwvZz48L3N2Zz4=);
+     background-size: 100% 100px;
+    bottom: 0;
+    height: 100px;
+    z-index: 10;
+    transform: rotateY(180deg);
+    }
+     
+        
+/* ////////////////////////////////////////////////////////////services////////////////////////////////////////////////////// */
+     .svg2
+    {
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9InJnYmEoNzgsMTQ4LDYwLDAuNTEpIj48cGF0aCBkPSJNNjQwIDEzOUwwIDB2MTQwaDEyODBWMEw2NDAgMTM5eiIgZmlsbC1vcGFjaXR5PSIuNSIvPjxwYXRoIGQ9Ik02NDAgMTM5TDAgNDJ2OThoMTI4MFY0MmwtNjQwIDk3eiIvPjwvZz48L3N2Zz4=);
+        background-size: 100% 100px;
+        bottom: 0;
+        height: 100px;
+        z-index: 1;
+    }
+
+.fonts{
+    font-family: "Della Respira", Georgia, "Times New Roman", serif;
+    font-weight: 500;
+    font-size: 22px;
+}
+#buton button{
+
+    border-radius: 4px;
+    background-color: #5dd152b9;    
+    border: none;
+    color: #fff;
+    text-align: center;
+    
+    padding: 16px;
+    width: 220px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+  }
+  
+  #buton button{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  #buton button:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  #buton button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+  #buton button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  .white{
+      color: white;
+  }
+/* //////////////////////carousel////////////////// */
+
+
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+
+    }
+
+
+.marginl{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+/* ////////////////////////////////////////////build/////////////////// */
+    #build{
+        background-color: #f3f3f3 !important;
+        padding: 50px 0;
+    }
+.build{
+    font-size: 3rem;
+    color: #0c71c3 !important;
+    text-align: center;
+}
+
+
+
+
+/* ////////////////////////////////////////////form////////////////////////////////// */
+
+    .form{
+        background-image: url('woodland.jpg');
+       
+    }
+    .fontcol{
+        color: lavenderblush;
+        font-family: "Della Respira", Georgia, "Times New Roman", serif;
+    }
+    .formoverlays{
+        background-color: rgba(0, 0, 0, 0.75);
+        height: inherit;
+    }
+    .white{
+        color: lavenderblush;
+    }
+    .svg3{
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxODBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9InJnYmEoNzgsMTQ4LDYwLDAuNzgpIj48cGF0aCBkPSJNMCAxNDBoMTI4MEM1NzMuMDggMTQwIDAgMCAwIDB6Ii8+PC9nPjwvc3ZnPg==);
+        background-size: 100% 180px;
+        bottom: 0;
+        height: 180px;
+        z-index: 10;
+        transform: rotateY(180deg);
+    }
+    .input{
+        width: 60px;
+        height: 40px;
+    }
+    /* ///////////////////////////contact//////////////////////////////////////////////////////// */
+    .contact{
+        background-color: #000000e6;
+    }
+    .green{
+        color: green;
+        font-family: "Della Respira", Georgia, "Times New Roman", serif;
+    }
+
+  
+    /* //////////////////////////////footer/////////////////////// */
+    
+
+    
+      

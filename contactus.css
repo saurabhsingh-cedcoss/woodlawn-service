@@ -1,0 +1,192 @@
+/* ////////////////////navabar///////////////////////////////////////////// */
+body {
+    background-color: lightgrey;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 100;
+  }
+  .fonts{
+    font-family: "Della Respira", Georgia, "Times New Roman", serif;
+    padding: 10px;
+  }
+  .main {
+    margin-top: 70px; 
+    background-image: url(https://woodlawnservices.com/wp-content/uploads/2018/04/contact-for-lawn-service.jpg) !important;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0,0, 0.54);
+  }
+  .navbar-toggler {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+  }
+  .textmain{
+    color: white;
+    height: auto;
+    width: 100%;
+
+  padding: 20% 10% 10% 2%;
+  }
+  .fontnew{
+    font-size: large;
+  }
+  .navbar-fixed-top {
+    border-width: 0;
+    height: 25vh;
+    background: white;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    -webkit-transition: height 1s; 
+    -moz-transition: height 1s; 
+    -ms-transition: height 1s; 
+    -o-transition: height 1s; 
+    transition: height 1s; 
+  }
+  
+  .navbar-fixed-top.js-scrolling {
+    height: 15vh;
+    -webkit-transition: height 1s; 
+    -moz-transition: height 1s; 
+    -ms-transition: height 1s; 
+    -o-transition: height 1s; 
+    transition: height 1s; 
+  }
+ 
+  .navbar-brand img {
+  height: 20vh;
+    -webkit-transition: height 1s; 
+    -moz-transition: height 1s; 
+    -ms-transition: height 1s; 
+    -o-transition: height 1s; 
+    transition: height 1s; 
+  }
+  
+  .navbar-brand.js-scrolling img {
+    height: 10vh;
+    -webkit-transition: height 1s; 
+    -moz-transition: height 1s; 
+    -ms-transition: height 1s; 
+    -o-transition: height 1s; 
+    transition: height 1s; 
+  }
+
+@media (max-width: 1200px) { 
+  .navbar-fixed-top {
+    height: 10vh;
+   
+  }
+  .navbar-brand img {
+    max-height: 10vh;
+    
+    }
+    #buton button{
+
+    width: 80px;
+    }
+    md-textarea{
+      padding: 0%!important;
+    }
+}
+  
+  .svg1{
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiM0ZTk0M2MiPjxwYXRoIGQ9Ik0wIDQ3LjQ0TDE3MCAwbDYyNi40OCA5NC44OUwxMTEwIDg3LjExbDE3MC0zOS42N1YxNDBIMFY0Ny40NHoiIGZpbGwtb3BhY2l0eT0iLjUiLz48cGF0aCBkPSJNMCA5MC43MmwxNDAtMjguMjggMzE1LjUyIDI0LjE0TDc5Ni40OCA2NS44IDExNDAgMTA0Ljg5bDE0MC0xNC4xN1YxNDBIMFY5MC43MnoiLz48L2c+PC9zdmc+);
+    background-size: 20% 100px;
+    bottom: 0;
+    height: 100px;
+    z-index: 1;
+  }
+  .blue{
+    color: blue;
+    font-size: large;
+}
+.grey{
+    background-color: lightgray;
+}
+
+/* //////////////////////////////////////////////map///////////////////////////////////// */
+
+ .map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:350px;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+    .inp {
+      width: 54px;
+      height: 27px;
+  }
+  .active{
+    color: blue;
+  }
+    #buton button{
+
+        border-radius: 4px;
+        background-color: #0bf545e1;    
+        border: none;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 20px;
+        padding: 8px;
+        width: 140px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 36px;
+        box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+      }
+      
+      #buton button{
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      #buton button:after {
+        content: '»';
+        position: absolute;
+        opacity: 0;  
+        top: 14px;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      #buton button:hover{
+        padding-right: 24px;
+        padding-left:8px;
+      }
+      
+      #buton button:hover:after {
+        opacity: 1;
+        right: 10px;
+      }
+
+
+ /* ///////////////////////////contact//////////////////////////////////////////////////////// */
+ .contact{
+    background-color: #000000e6;
+}
+.green{
+    color: green;
+    font-family: "Della Respira", Georgia, "Times New Roman", serif;
+}
+
+
+/* //////////////////////////////footer/////////////////////// */
+.con{
+    background-color: black;
+    height: 100px;
+}
+.white{
+  color: white;
+}

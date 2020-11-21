@@ -1,0 +1,206 @@
+/* ////////////////////navabar///////////////////////////////////////////// */
+body {
+  background-color: lightgrey;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 100;
+}
+
+.row{
+  overflow: hidden;
+}
+
+.main {
+  margin-top: 70px; 
+  background-image: url(https://woodlawnservices.com/wp-content/uploads/2018/04/woodlawn-mowing-service.jpg) ;
+  background-position: center;
+  background-size: cover;
+}
+.textmain{
+  color: white;
+ 
+padding: 10% 10% 10% 10%;
+}
+.overlay1{
+    background-color: rgba(0, 0,0, 0.44);
+    
+  }
+  .navbar-fixed-top {
+    border-width: 0;
+    height: 25vh;
+    background: white;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    -webkit-transition: height 1s; 
+    -moz-transition: height 1s; 
+    -ms-transition: height 1s; 
+    -o-transition: height 1s; 
+    transition: height 1s; 
+  }
+  
+  .navbar-fixed-top.js-scrolling {
+    height: 15vh;
+    -webkit-transition: height 1s; 
+    -moz-transition: height 1s; 
+    -ms-transition: height 1s; 
+    -o-transition: height 1s; 
+    transition: height 1s; 
+  }
+ 
+  .navbar-brand img {
+  height: 20vh;
+    -webkit-transition: height 1s; 
+    -moz-transition: height 1s; 
+    -ms-transition: height 1s; 
+    -o-transition: height 1s; 
+    transition: height 1s; 
+  }
+  
+  .navbar-brand.js-scrolling img {
+    height: 10vh;
+    -webkit-transition: height 1s; 
+    -moz-transition: height 1s; 
+    -ms-transition: height 1s; 
+    -o-transition: height 1s; 
+    transition: height 1s; 
+  }
+
+@media (max-width: 1200px) { 
+  .navbar-fixed-top {
+    height: 10vh;
+   
+  }
+  .navbar-brand img {
+    max-height: 10vh;
+    
+    }
+   
+}
+
+
+.svg1{
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSI3NHB4IiB2aWV3Qm94PSIwIDAgMTI4MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTcyNS4yOSAxMDEuMkMzMjUuMjIgMTIyLjQ4IDAgMCAwIDB2MTQwaDEyODBWMHMtMTU0LjY0IDc5LjkyLTU1NC43MSAxMDEuMnoiIGZpbGwtb3BhY2l0eT0iLjMiLz48cGF0aCBkPSJNNTU2LjQ1IDExOS43NEM5NTMuNDEgMTQwIDEyODAgMTQgMTI4MCAxNHYxMjZIMFYwczE1OS41IDk5LjQ4IDU1Ni40NSAxMTkuNzR6IiBmaWxsLW9wYWNpdHk9Ii41Ii8+PHBhdGggZD0iTTY0MCAxNDBjMzUzLjQ2IDAgNjQwLTE0MCA2NDAtMTM5djE0MEgwVjBzMjg2LjU0IDE0MCA2NDAgMTQweiIvPjwvZz48L3N2Zz4=);
+    background-size: 100% 74px;
+    bottom: 0;
+    height: 74px;
+    /* z-index: 10; */
+}
+.fonts{
+    font-family: "Della Respira", Georgia, "Times New Roman", serif;
+    
+  }
+
+
+/* ///////////////////////////////////services///////////////////////////////////////// */
+        #other{
+            background-color: lightcyan;
+        }
+    .leaf{
+        background-blend-mode: overlay;
+    background-image: url(https://woodlawnservices.com/wp-content/uploads/2018/04/Trimming-service.jpg);
+    background-color: rgba(0,0,0,0.58);
+    background-size: cover;
+    height: 300px;
+    }
+    .wheel{
+      background-blend-mode: overlay;
+     background-image: url(https://woodlawnservices.com/wp-content/uploads/2018/04/lawn-care-service.jpg);
+      background-color: rgba(0,0,0,0.58);
+      background-size: cover;
+      height: 300px;
+     }
+     .wheel2{
+        background-blend-mode: overlay;
+        background-image: url(https://woodlawnservices.com/wp-content/uploads/2018/04/Backyard.jpg);
+        background-color: rgba(0,0,0,0.5);
+        background-size: cover;
+        height: 300px;
+     }
+     .fontnew{
+       font-size: large;
+     }
+     .navbar-toggler {
+       padding-left: 0px!important;
+       padding-right: 0px!important;
+     }
+    /* <!-- /////////////////////////////////////////////////////cards/////////////////////////// --> */
+
+    .card2{
+            background-image: url(https://woodlawnservices.com/wp-content/uploads/2018/04/leaf-removal-lawn-service.jpg);
+          background-color: rgba(78,148,60,0.75);
+          background-blend-mode: overlay;
+          background-size: cover;
+          width: 70%;
+          height: 300px;
+          padding: 5%;
+          background-repeat: no-repeat;
+          margin: 3%;
+    }
+    .card1{
+      background-color: rgb(51 136 29 / 84%);
+      background-size: cover;
+      width: 70%;
+      height: 300px;
+      padding: 5%;
+      background-repeat: no-repeat;
+      margin: 3%;
+}
+    .iconcard{
+        font-size: 90px;
+        
+    }
+
+    /* ///////////////////////////////////////////form///////////////////////////////////////////////// */
+    .formcon{
+        position: relative;
+    }
+    .formsvgtext{
+        position: absolute;
+        top: 36%;
+        color: white;
+        padding: 5%;
+    }
+    .formimage{
+        background-blend-mode: overlay;
+        background-image: url(https://woodlawnservices.com/wp-content/uploads/2018/04/Mulched-lawn.jpg);
+        background-color: rgba(0,0,0,0.64);
+        width: 100%;
+        background-size: cover;
+      
+        height: 600px;
+        z-index: -1;
+    }
+    .formsvg{
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxNTBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9InJnYmEoMTIsMTEzLDE5NSwwLjcpIj48cGF0aCBkPSJNMCAxNDBoMTI4MEM1NzMuMDggMTQwIDAgMCAwIDB6Ii8+PC9nPjwvc3ZnPg==);
+        background-size: 100% 150px;
+        top: 0;
+        height: 150px;
+        width: 100%;
+        /* z-index: 1; */
+        transform: rotateX(180deg);
+        position: absolute;
+    }
+     /* ///////////////////////////contact//////////////////////////////////////////////////////// */
+     .contact{
+        background-color: #000000e6;
+    }
+    .green{
+        color: green;
+        font-family: "Della Respira", Georgia, "Times New Roman", serif;
+    }
+  
+ 
+
+    /* //////////////////////////////footer/////////////////////// */
+    .con{
+        background-color: black;
+        height: 100px;
+    }
+    .white{
+      color: white;
+    }
+    .active{
+      color: blue;
+    }
